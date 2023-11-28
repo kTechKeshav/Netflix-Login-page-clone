@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+/* CSS applied inside header */
+
+html{
+    filter: brightness(93%);
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/ab4b0b22-2ddf-4d48-ae88-c201ae0267e2/0efe6360-4f6d-4b10-beb6-81e0762cfe81/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large.jpg') ;
+}
+
+body{
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    height: auto;
+}
+
+.insidenav img{
+    margin: 22px 40px;
+    width: 165px;
+    height: 43px;
+}
+
+/* CSS applied inside main */
+
+.content{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+}
+
+.content .login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 68px 40px;
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 18%;
+    height: 75%;
+    /* border-radius: 15px; */
+    /* border: 2px solid rgb(255, 115, 0); */
+}
+
+#p1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.txt{
+    font-size: 14px;
+    width: 83%;
+    background-color: rgba(128, 128, 128, 0.308);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 10px 20px ;
+}
+
+#b1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 8.5%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: red;
+}
+
+#r1{
+    display: inline;
+    color: rgb(189, 185, 185);
+}
+
+.label1{
+    padding-top: 5px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(173, 173, 173);
+}
+
+#help{
+    display: inline;
+    float: right;
+}
+
+#extra{
+    padding-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    height: 40%;
+}
+
+#lol{
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(47, 124, 255);
+}
+
+/* CSS applied inside footer */
+
+#insidefooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    /* border: 2px solid red; */
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+#lastcontent{
+    padding-right: 50px;
+    /* border: 1px solid white; */
+    width: 55%;
+    height: 80%;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(173, 173, 173);
+}
+
+li a:hover{
+    text-decoration: underline;
+    list-style: none;
+    color: rgb(173, 173, 173);
+}
+
+#lastbutton{
+    padding: 8px;
+    background-color: black;
+    color:white;
+    border: .5px solid white;
+    border-radius: 4px;
+    width: 13%;
+    height: 20%;
+}
